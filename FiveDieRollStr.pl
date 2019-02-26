@@ -27,7 +27,7 @@ for($i; $i < 5; $i++){
 	$die1 = int rand($num) + 1;
 	
 	print "\n";
-	print "Die " . $i . " is: " . $die1;
+	print "Die " . ($i + 1) . " is: " . $die1;
 	print "\n";
 	
 	#Incress the Total After Every Roll
